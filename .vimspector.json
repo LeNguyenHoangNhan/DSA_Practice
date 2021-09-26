@@ -1,0 +1,52 @@
+{
+  "configurations": {
+    "Debug question4": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "type":    "cppdbg",
+        "request": "launch",
+        "program": "${workspaceRoot}/cmake-build/LinkedListBasic/question4",
+        "args": [],
+        "cwd": "${workspaceRoot}",
+        "externalConsole": false,
+        "stopAtEntry": true,
+        "MIMode": "lldb",
+        "logging": {
+          "engineLogging": false
+        }
+      }
+    },
+    "Debug question5": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "type":    "cppdbg",
+        "request": "launch",
+        "program": "${workspaceRoot}/cmake-build/LinkedListBasic/question5",
+        "args": [],
+        "cwd": "${workspaceRoot}",
+        "externalConsole": false,
+        "stopAtEntry": true,
+        "MIMode": "lldb",
+        "logging": {
+          "engineLogging": false
+        }
+      }
+    },
+    "Debug question1 Advanced": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "type":    "cppdbg",
+        "request": "launch",
+        "program": "${workspaceRoot}/cmake-build/LinkedListAdvanced/LinkedListAdvanced_question1",
+        "args": [],
+        "cwd": "${workspaceRoot}",
+        "externalConsole": false,
+        "stopAtEntry": true,
+        "MIMode": "lldb",
+        "logging": {
+          "engineLogging": false
+        }
+      }
+    }
+  }
+}
